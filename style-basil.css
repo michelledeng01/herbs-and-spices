@@ -1,0 +1,471 @@
+
+@import url("//hello.myfonts.net/count/2fd40c");
+@font-face {font-family: 'TTBluescreens-Bold';src: url('webfonts/2FD40C_4_0.eot');src: url('webfonts/2FD40C_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FD40C_4_0.woff2') format('woff2'),url('webfonts/2FD40C_4_0.woff') format('woff'),url('webfonts/2FD40C_4_0.ttf') format('truetype');}
+
+
+.TTBluescreens-Bold { 
+  font-family: TTBluescreens-Bold;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main {
+  float: left;
+  width: 59%;
+  margin-right:5%;
+}
+
+#articletitle{
+  width: 30%;
+  margin-right:4%;
+  margin-top:-15px;
+}
+
+#articletitle h1{
+  font-family: TTBluescreens-Bold;
+  font-size: 60pt;
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+  text-align: left;
+  font-weight: normal;
+  display: inline;
+}
+
+#articletitle h2 {
+  font-family: TTBluescreens-Bold;
+  font-size: 14pt;
+  color:#999999;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+  font-weight: normal;
+  margin-bottom:5px;
+
+}
+
+
+/*
+#article h2 span {
+  position:relative;
+  font-family: TTBluescreens-Bold;
+  font-size: 14pt;
+  color:#999999;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+  font-weight: normal;
+  margin-bottom:5px;
+
+}
+#article h2 span:after{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:55px;
+  border-bottom: solid 2px #999999;
+  padding-bottom:0.5px;
+  width:220px;
+  content:""}
+
+*/
+
+#articletitle h3{
+  font-family: TTBluescreens-Bold;
+  font-size: 32pt;
+  letter-spacing: 1.5pt;
+  line-height:33pt;
+  text-align: left;
+  font-weight: normal;
+  display: inline;
+  width:320px;
+}
+
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 0% 0 0% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.66%; }
+.span_1_of_3 { width: 33.33%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 0% 0 0% 0%; }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+img {
+     max-width: 100%;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
+    -webkit-transition: all 0.35s linear;
+       -moz-transition: all 0.35s linear;
+        -ms-transition: all 0.35s linear;
+         -o-transition: all 0.35s linear;
+            transition: all 0.35s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+a.darken span{
+  visibility:hidden;
+  font-size:36px;
+    position: absolute;
+    vertical-align:middle;
+    text-align:center;
+    font-family: 'TTBluescreens-Bold';
+    text-transform:uppercase;
+
+}
+
+a.darken:hover span{
+  color:#fff;
+  visibility:visible;
+  opacity: 1;
+}
+
+
+.head {
+  font-family: 'TTBluescreens-Bold';
+  color: #000033;
+  font-size: 90pt;
+  text-transform: uppercase;
+  padding: 35px;
+  letter-spacing: 2pt;
+}
+
+div {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;  
+  background-color: #f4f4f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.blinking-cursor {
+  font-weight: 50;
+  font-size: 90px;
+  font-family: TT Bluescreens Thin;
+  color: #000033;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+
+
+
+#search-wrapper {
+  width:400px;
+  height:132px;
+  background-color: #f4f4f4;
+  position: relative;
+  border-bottom: 1px solid black;
+  top:35px;
+
+
+
+}
+
+
+#search-wrapper input[type="text"] {
+  position: absolute;
+  width:100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: 1;
+  border:none;
+
+  background-color: #f4f4f4;
+  font-family: 'TTBluescreens-Bold';
+  color: #000033;
+  font-size: 90pt;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+
+}
+
+#search-wrapper .blinking-cursor {
+  position: absolute;
+  top: 0px;
+  left:-25px;
+  z-index: 2;
+  border:none;
+  font-family: TT Bluescreens Thin;
+  font-weight: 100;
+  font-size: 90pt;
+  color: #000033;
+}
+
+
+
+.content {
+  font-family: TTBluescreens-Bold;
+  color: #000033;
+  font-size: 90pt;
+  text-transform: uppercase;
+  padding: 35px;
+  letter-spacing: 2pt;
+  line-height: 85pt;
+  width: 600px;
+}
+
+
+.visible {
+  float: left;
+  overflow: hidden;
+  height: 100px;
+}
+
+
+
+p {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+
+ul {
+  color:#e2e2ed;
+  margin-top: 0;
+  padding-left: 395px;
+  text-align: left;
+  list-style: none;
+  animation: 50s linear 0s normal none infinite change;
+  -webkit-animation: 10s  0s normal none infinite change;
+  -moz-animation: 10s linear 0s normal none infinite change;
+  -o-animation: 10s linear 0s normal none infinite change;
+  height: 85px;
+}
+
+
+
+ul li {
+  line-height: 85pt;
+  margin: 0;
+}
+
+@-webkit-keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: -113px;
+  }
+  25% {
+    margin-top: -113px;
+  }
+  30% {
+    margin-top: -337px;
+  }
+  40% {
+    margin-top: -337px;
+  }
+  45% {
+    margin-top: -225px;
+  }
+  55% {
+    margin-top: -225px;
+  }
+  60% {
+    margin-top: -449px;
+  }
+  70% {
+    margin-top: -449px;
+  }
+  75% {
+    margin-top: -225px;
+  }
+  85% {
+    margin-top: -225px;
+  }
+  90% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes change {
+
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: -113px;
+  }
+  25% {
+    margin-top: -113px;
+  }
+  30% {
+    margin-top: -337px;
+  }
+  40% {
+    margin-top: -337px;
+  }
+  45% {
+    margin-top: -225px;
+  }
+  55% {
+    margin-top: -225px;
+  }
+  60% {
+    margin-top: -449px;
+  }
+  70% {
+    margin-top: -449px;
+  }
+  75% {
+    margin-top: -225px;
+  }
+  85% {
+    margin-top: -225px;
+  }
+  90% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+
+
+}
+
+#superSearch.cycle form {
+  display:none;
+}
+
+#superSearch.search form {
+  display: none;
+}
+
+#superSearch.search ul {
+  display: none;
+}
+
+form {
+  position: absolute;
+  top: -14px;
+  margin-top: 0;
+  padding-left: 395px;
+  text-align: left;
+  height: 80px;
+  opacity:0;
+}
+
+form:hover{
+  opacity:1;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
